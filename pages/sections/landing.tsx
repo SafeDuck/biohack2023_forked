@@ -38,7 +38,7 @@ export default function Landing() {
                 Virtual <span className='font-bold'>Healthcare Hackathon</span>
               </h4>
               <h3 className='text-center 2xl:text-left text-accent font-extrabold'>
-                Coming in Late 2022
+                Coming in Spring 2023
               </h3>
             </div>
           </div>
