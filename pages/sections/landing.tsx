@@ -20,9 +20,9 @@ export default function Landing() {
       <section className='flex w-full max-w-[64rem] h-screen min-h-[32rem] md:min-h-[60rem] my-12 lg:mt-0 items-center justify-center xs:justify-start z-[50]'>
         <div className='flex flex-col w-full'>
           <div className='flex flex-col 2xl:flex-row w-full items-center lg:gap-6'>
-            <div className='w-32 md:w-40 lg:w-48'>
+            <div className='w-32 md:w-64 lg:w-48'>
               <Image
-                src='/logo.png'
+                src='/assets/white-logo.png'
                 width={922}
                 height={1063}
                 quality={80}
@@ -35,10 +35,10 @@ export default function Landing() {
                 BIO<b>HACK</b>
               </h1>
               <h4 className='text-center 2xl:text-left'>
-                Virtual <span className='font-bold'>Healthcare Hackathon</span>
+                 <span className='font-bold'>Healthcare Hackathon</span>
               </h4>
               <h3 className='text-center 2xl:text-left text-accent font-extrabold'>
-                Coming in Spring 2023
+                May 20 - 21
               </h3>
             </div>
           </div>

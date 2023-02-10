@@ -22,7 +22,7 @@ export default function Home() {
       >
         <div className='absolute top-0 left-0 block lg:hidden w-full max-w-lg'>
           <Image
-            src='/assets/foliage-left.png'
+            src='' //removed foliage left
             width={740}
             height={629}
             quality={80}
@@ -33,7 +33,7 @@ export default function Home() {
         </div>
         <div className='absolute bottom-0 right-0 block 2xl:hidden w-80'>
           <Image
-            src='/assets/foliage-right.png'
+            src='' //removed foliage right
             width={557}
             height={563}
             quality={80}
@@ -44,7 +44,7 @@ export default function Home() {
         </div>
         <div className='absolute top-0 left-0 hidden lg:block md:w-[34rem]'>
           <Image
-            src='/assets/tree-left.png'
+            src='' //removed tree left
             width={740}
             height={1017}
             quality={80}
@@ -55,7 +55,7 @@ export default function Home() {
         </div>
         <div className='absolute top-0 right-0 hidden 2xl:block w-[40rem]'>
           <Image
-            src='/assets/tree-right.png'
+            src='' //removed tree right
             width={911}
             height={1281}
             quality={80}
