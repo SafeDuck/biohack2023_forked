@@ -44,7 +44,7 @@ export default function Landing() {
           </div>
           {/* <CountdownWrapper date='2022-05-21T19:00:00Z' /> */}
           <div className='flex flex-col 2xl:flex-row justify-center items-center 2xl:justify-start w-full gap-3 sm:gap-4 mt-8'>
-            <div className='flex flex-col gap-3 w-full sm:w-min'>
+            {/* <div className='flex flex-col gap-3 w-full sm:w-min'>
               <ButtonLink
                 primary
                 label='Apply for Lead'
@@ -57,8 +57,8 @@ export default function Landing() {
                 link='https://docs.google.com/forms/d/1aUQnitpLxcRkueuUFs8vkNJgbe9f_RprNUWt257vSVA'
                 external
               />
-            </div>
-            <div className='flex flex-col gap-3 w-full sm:w-min'>
+            </div> */}
+            <div className='flex gap-3 w-full sm:w-min'>
               <ButtonLink
                 label='Join a Committee'
                 link='https://docs.google.com/forms/d/1ceVRzwBes5c3CQavdhr-a98ctjKCxQAHhw_tfyBLz9I'

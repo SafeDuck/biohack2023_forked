@@ -65,7 +65,7 @@ export const Select = ({ label, variable, register, required, options, errors })
       </option>
       {
         options.map((option) =>
-          <option value={option}>{option}</option>
+          <option key = "options" value={option}>{option}</option>
         )
       }
     </select>
@@ -80,7 +80,7 @@ export const Checkbox = ({ register, label, variable, options }) => (
     <div className='flex flex-col gap-2 pl-2'>
       {
         options.map((option) =>
-          <div id={label} className='flex items-center gap-2'>
+          <div key = "Checkbox" id={label} className='flex items-center gap-2'>
             <input
               type='checkbox'
               id={variable.toString() + option.toString()}
@@ -115,7 +115,7 @@ export const Radio = ({ register, label, variable, required, options, errors, su
     <div className='flex flex-col gap-2 pl-2'>
       {
         options.map((option) =>
-          <div id={label} className='flex items-center gap-2'>
+          <div key = "Radio" id={label} className='flex items-center gap-2'>
             <input
               type='radio'
               id={variable.toString() + option.toString()}

@@ -48,10 +48,10 @@ export default function Admin() {
                 <Pages
                   pageOptions={pageOptions}
                   icons={[
-                    <BiIdCard />,
-                    <BiBarChartAlt2 />,
-                    <BiGroup />,
-                    <BiFile />
+                    <BiIdCard key="1"/>,
+                    <BiBarChartAlt2 key="2"/>,
+                    <BiGroup key="3"/>,
+                    <BiFile key="4"/>
                   ]}
                   selectedPage={selectedPage}
                   selectPage={setSelectedPage}
@@ -76,10 +76,10 @@ export default function Admin() {
             <Pages
               pageOptions={pageOptions}
               icons={[
-                <BiIdCard />,
-                <BiBarChartAlt2 />,
-                <BiGroup />,
-                <BiFile />
+                <BiIdCard key="1"/>,
+                <BiBarChartAlt2 key="2"/>,
+                <BiGroup key="3"/>,
+                <BiFile key="4"/>
               ]}
               selectedPage={selectedPage}
               selectPage={setSelectedPage}

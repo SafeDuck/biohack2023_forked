@@ -16,17 +16,17 @@
     --admin-sub-bright: #3F2D24;
 
     --primary-100: #000000;
-    --primary-200: #f34717;
+    --primary-200: #b91c00;
     --primary-300: #B28871;
     --primary-400: #D1C7AC;
     --primary-500: #D4B66E;
     --primary-600: #D9A16E;
-    --accent: #740A0A;
+    --accent: #b91c00;
     --accent-dark: #5E0202;
     --card: #EBDEBD;
     --sub: #673F28;
-    --highlight: #BDA89D;
-    --highlight-dark: #9D8071;
+    --highlight: #000000;
+    --highlight-dark: #9c9695;
     --text: #F5F1E4;
     --text-dark: #18120D; 
     --pattern: url('/assets/footprints.svg');
