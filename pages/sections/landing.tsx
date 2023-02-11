@@ -27,7 +27,7 @@ export default function Landing() {
                 height={1063}
                 quality={80}
                 priority={Boolean(true)}
-                objectFit='contain'
+                objectFit='cover'
               />
             </div>
             <div className='w-full'>
